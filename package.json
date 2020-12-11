@@ -1,7 +1,7 @@
 {
   "name": "eventmanageruno",
   "description": "A simple vuejs Hello World plugin",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "private": false,
   "author": {
     "name": "NickVolkmann",
