@@ -6,7 +6,7 @@ install(Vue, backurl) {
  
       try{
         const {data} =  await HttpService.post(`${backurl}`, 
-          JSON.stringify({"timestamp": new Date(), "err": err.name, "msg": err.message, "info": info}));
+          JSON.stringify({"timestamp": new Date(), "err": err.name, "msg": err.message, "info": error.stack}));
         return data;
         }
      
