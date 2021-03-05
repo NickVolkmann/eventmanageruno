@@ -1,70 +1,24 @@
 {
   "name": "eventmanageruno",
-  "description": "A simple vuejs Hello World plugin",
-  "version": "0.1.9",
-  "private": false,
-  "author": {
-    "name": "NickVolkmann",
-    "email": "NickVolkmann@web.de"
-  },
-  "repository": "https://github.com/NickVolkmann/eventmanageruno.git",
-  "keywords": [
-    "keywords",
-    "go",
-    "here"
-  ],
-  "license": "MIT",
-  "files": [
-    "dist/eventmanageruno.js",
-    "dist/eventmanageruno.min.js",
-    "dist/eventmanageruno.common.js",
-    "dist/eventmanageruno.esm.js",
-    "dist/eventmanageruno.esm.browser.js",
-    "dist/eventmanageruno.esm.browser.min.js",
-    "/*.js"
-  ],
+  "version": "3.3.1",
+  "description": "ErrorHandler",
+  "main": "index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-library": "vue-cli-service build --target lib --name eventmanageruno ./index.js",
-    "lint": "vue-cli-service lint"
+    "build-library": "vue-cli-service build --target lib --name eventmanageruno ./index.js"
   },
-  "main": ".dist/eventmanageruno.common.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickVolkmann/eventmanageruno"
+  },
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-0",
-    "vue-template-compiler": "^2.6.10"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "eslint": "^6.7.2"
+  }
 }
